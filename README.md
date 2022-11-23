@@ -1,2 +1,2 @@
-# pos_venta
+# Punto de Venta con PHP y Mysql
  
