@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvendio</title>
-</head>
-<body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae architecto illo quo temporibus aut commodi cumque unde exercitationem nesciunt, facere, voluptas nemo omnis consequuntur voluptates quasi impedit sapiente maxime?</h1>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Inicio de Sesión</title>
+        <link href="<?php echo base_url; ?>Assets/css/styles.css" rel="stylesheet" />
+        <script src="<?php echo base_url; ?>Assets/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg-primary">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Iniciar Sesión</h3></div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="inputEmailAddress"> <i class="fas fa-user"></i> Usuario</label>
+                                                <input class="form-control py-4" id="inputEmailAddress" type="email" placeholder="Ingresar Usuario" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="inputPassword"><i class="fas fa-key"></i> Contraseña</label>
+                                                <input class="form-control py-4" id="inputPassword" type="password" placeholder="Ingresar Contraseña" />
+                                            </div>
+                                            <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                                
+                                                <a class="btn btn-primary" href="index.html">Iniciar Sesión</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div id="layoutAuthentication_footer">
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Derechos de Autor &copy; Tu sitio Web 2022</div>
+                            <div>
+                                <a href="#">Políticas de Privacidad</a>
+                                &middot;
+                                <a href="#">Terminos &amp; Condiciones</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="<?php echo base_url; ?>Assets/js/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url; ?>Assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url; ?>Assets/js/scripts.js"></script>
+    </body>
 </html>

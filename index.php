@@ -1,5 +1,5 @@
 <?php 
-    
+require_once "Config/config.php";
 
 $ruta= !empty($_GET['url']) ? $_GET['url']: "Home/index";
 $array = explode("/", $ruta);
